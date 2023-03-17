@@ -1,41 +1,71 @@
-#gptprompts {
-    position: absolute;
-    top: 100px;
-    left: 80px;
-    padding: 60px;
-    font-size: 64px;
-    text-align: center;
-    background-color: pink;
-    border-radius: 10px;
-    text-decoration: none;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    border-width: 30px;
-    border-style: solid;
-    border-color: lightpink !important;
+h2 {
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+  sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #464b50;
 }
-#gptprompts-link {
-    text-decoration: none;
-    color: hotpink;
+h1 {
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+  sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #24292e;
 }
-#oligarchydpf {
-    position: absolute;
-    top: 100px;
-    left: 650px;
-    padding: 60px;
-    font-size: 64px;
-    text-align: center;
-    background-color: lightblue;
-    border-radius: 10px;
-    text-decoration: none;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    border-width: 30px;
-    border-style: solid;
-    border-color: lightskyblue !important;
+p {
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+  sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #6a737d;
 }
-#oligarchydpf-link {
-    text-decoration: none;
-    color: cyan;
+hr {
+  color: #6a737d;
+}
+#divider {
+  background-color: #6a737d;
+  height: 4px;
 }
 body {
-    background-color: darkslategray;
+  margin: 16px;
+  padding-top: 20px;
+}
+a {
+  color: #0366d6;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+  sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgba(85, 85, 85, 0.8);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: opacity 0.2s;
+}
+
+#backToTop:hover {
+  background-color: #555;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(85,85,85,0.8);
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+  font-size: 24px;
+}
+
+#headlink{
+  color: white;
+  text-decoration: underline;;
 }
