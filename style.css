@@ -1,6 +1,7 @@
 body {
     background-color: midnightblue;
     margin: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .grid-container {
@@ -17,7 +18,6 @@ body {
 
 a {
     text-decoration: none;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 48px;
 }
 
@@ -95,3 +95,33 @@ a {
     color: darkgreen;
     background-color: lightgreen;;
 }
+
+#modelscope {
+    color: gold;
+    background-color: lightyellow;
+}
+
+#midjourney {
+    color: rgba(255,0,0,0.9);;
+    background-color: darkslateblue;
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgba(85, 85, 85, 0.8);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: opacity 0.2s;
+  }
+  
+  #backToTop:hover {
+    background-color: #555;
+  }
