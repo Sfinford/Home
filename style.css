@@ -14,6 +14,11 @@ body {
     padding: 30px; /* add some padding to the divs */
     text-align: center; /* center the text */
     border-radius: 35px;
+    transition: 0.3s ease;
+}
+
+.grid-item:hover {
+    transform: scale(1.05);
 }
 
 a {
@@ -51,24 +56,14 @@ a {
     background-color: khaki;;
 }
 
-#deepai {
-    color: royalblue;
-    background-color: dodgerblue;;
-}
-
 #zerogpt {
     color: darkslateblue;
     background-color: slateblue;
 }
 
-#removebg {
-    color: gray;
-    background-color: gainsboro;
-}
-
-#cleanup {
-    color: deeppink;
-    background-color: hotpink;
+#ribbet {
+    color: royalblue;;
+    background-color: dodgerblue;;
 }
 
 #dream {
@@ -96,7 +91,7 @@ a {
     background-color: lightgreen;;
 }
 
-#modelscope {
+#huggingface {
     color: gold;
     background-color: lightyellow;
 }
