@@ -46,7 +46,7 @@ a {
     background-color: lightgoldenrodyellow;
 }
 
-#diffusion {
+#create {
     color: lightskyblue;
     background-color: lightcyan;
 }
@@ -71,11 +71,6 @@ a {
     background-color: hotpink;
 }
 
-#dream {
-    color: darkorchid;
-    background-color: orchid;
-}
-
 #bing {
     color: royalblue;
     background-color: deepskyblue;
@@ -91,19 +86,9 @@ a {
     background-color: white;
 }
 
-#dalle {
-    color: darkgreen;
-    background-color: lightgreen;;
-}
-
 #huggingface {
     color: gold;
     background-color: lightyellow;
-}
-
-#midjourney {
-    color: rgba(255,0,0,0.9);;
-    background-color: darkslateblue;
 }
 
 #backToTop {
