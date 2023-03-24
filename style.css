@@ -91,6 +91,11 @@ a {
     background-color: lightyellow;
 }
 
+#canvas {
+    color: cyan;;
+    background-color: lightskyblue;;
+}
+
 #backToTop {
     position: fixed;
     bottom: 20px;
