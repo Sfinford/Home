@@ -36,6 +36,11 @@ a {
     background-color: plum;
 }
 
+#element-gen {
+    background-color: #6eff71;
+    color: #4cb250;
+}
+
 #chatgpt {
     color: darkgreen;
     background-color: lightgreen;;
